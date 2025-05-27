@@ -14,7 +14,11 @@ The 2 options to run the code:
   
 ![SimCLR LOSS Curve](SimCLR_loss.png)
 ![SimCLR Accuracy Curve](SimCLR_accuracy.png)
+The SimCLR loss and accuracy curve display tendencies of fitting the noise in the data (overfitting) due to their erratic/oscillatory nature near the end of the training cycle.
+This may indicate inadequate pretraining or a flawed architecture for the linear probe.
+
 
 #### MAE:
-Linear Probe Accuracy: 
-Linear Probe F1 score:
+* **Linear Probe Accuracy:** 85.44%
+* **Linear Probe F1 score:** 0.8567
+
