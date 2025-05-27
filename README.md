@@ -12,10 +12,10 @@ The 2 options to run the code:
 #### SimCLR:
 Linear Probe Accuracy: 86.72%
 Linear Probe F1 score- 0.8642
-![SimCLR LOSS Curve] (SimCLR_loss.png)
-![SimCLR Accuracy Curve] (SimCLR_accuracy.png)
+![SimCLR LOSS Curve](SimCLR_loss.png)
+![SimCLR Accuracy Curve](SimCLR_accuracy.png)
 
 #### MAE:
 Linear Probe Accuracy: 86.72%
 Linear Probe F1 score- 0.8642
-!alt [SimCLR LOSS Curve] (SimCLR_loss.png)
+![SimCLR LOSS Curve](SimCLR_loss.png)
