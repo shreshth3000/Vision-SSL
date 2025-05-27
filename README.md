@@ -23,3 +23,6 @@ This may indicate inadequate pretraining or a flawed architecture for the linear
 * **Linear Probe Accuracy:** 85.44%
 * **Linear Probe F1 score:** 0.8567
 
+![SimCLR LOSS Curve](mae_linear_probe_loss.png)
+![SimCLR Accuracy Curve](mae_linear_probe_accuracy.png)
+
