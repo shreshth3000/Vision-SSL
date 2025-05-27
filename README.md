@@ -1,7 +1,7 @@
 # Vision-SSL- SimCLR and MAE's
 
 ### Directions to run code: 
-The files [simclr.ipynb](https://github.com/shreshth3000/Vision-SSL/simclr.ipynb) and [mae.ipynb](https://github.com/shreshth3000/Vision-SSL/mae.ipynb) are the source files for the SimCLR and MAE implementations, respectively. To run, import the ssl_dataset file into this directory after cloning.
+The files [simclr.ipynb](https://github.com/shreshth3000/Vision-SSL/blob/main/simclr.ipynb) and [mae.ipynb](https://github.com/shreshth3000/Vision-SSL/blob/main/mae.ipynb) are the source files for the SimCLR and MAE implementations, respectively. To run, import the ssl_dataset file into this directory after cloning.
 The 2 options to run the code:
 * Run all cells in each, thereby regenerating the simclr_encoder.pth and mae_encoder.pth files, which requires extensive compute.
 * Run all but the pretraining cells (marked in the code), which will reduce runtime. This is possible due to the saved weight files.
