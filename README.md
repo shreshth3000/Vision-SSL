@@ -1,4 +1,4 @@
-# Vision-SSL- SimCLR and MAE's
+# Vision-SSL: SimCLR and MAE's
 > An implementation of Self-Supervised techniques for computer vision tasks, namely Simple Contrastive Learning of visual Representations (SimCLR) and Masked Autoencoders (MAE).
 
 ### Directions to run code: 
