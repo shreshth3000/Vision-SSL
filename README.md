@@ -16,12 +16,12 @@ The 2 options to run the code:
 #### Performance:
 |**Metric**|**MAE**|**SimCLR**|
 |----------|-------|----------|
-|Accuracy (%)|85.44|86.72|
-|F1|0.8642|0.8567|
+|Accuracy (%)|85.44|98.76|
+|F1|0.8642|0.9871|
 
 ### SimCLR:
-#### * **Linear Probe Accuracy:** 86.72%
-#### * **Linear Probe F1 score:** 0.8642
+#### * **Linear Probe Accuracy:** 98.76%
+#### * **Linear Probe F1 score:** 0.9871
 
 <p float="left">
   <img src="images/SimCLR_loss.png" width=500/>
@@ -30,8 +30,7 @@ The 2 options to run the code:
 
 
 
-**The SimCLR loss and accuracy curve display tendencies of fitting the noise in the data (overfitting) due to their erratic/oscillatory nature near the end of the training cycle.
-This may indicate inadequate pretraining or a flawed architecture for the linear probe.**
+**The SimCLR loss and accuracy curve display tendencies of fitting the noise in the data (overfitting) due to their erratic/oscillatory nature near the end of the training cycle. This may indicate inadequate pretraining or a flawed architecture for the linear probe.**
 
 
 ### MAE:
@@ -44,10 +43,10 @@ This may indicate inadequate pretraining or a flawed architecture for the linear
 </p>
 
 
-**The MAE loss and accuracy curves are comparatively much smoother, representing stable pretraining and convergence. Similar performance at lower compute costs are the benefits of using the MAE here, along with other specialised tasks like image restoration.**
+**The MAE loss and accuracy curves are comparatively much smoother, representing stable pretraining and convergence. It displays lower performance, albeit at lower compute costs which are the benefits of using the MAE here, along with other specialised tasks like image restoration.**
 
 
-> **Both Models display similar results, with SimCLR performing slightly better, albeit against an lightweight MAE that has been trained for fewer epochs due to computational limits.**
+> **BSimCLR performs better against a lightweight MAE that has been trained for fewer epochs due to computational limits.**
 
 
 
