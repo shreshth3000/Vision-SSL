@@ -20,8 +20,8 @@ The 2 options to run the code:
 |F1|0.8642|0.9871|
 
 ### SimCLR:
-#### * **Linear Probe Accuracy:** 98.76%
-#### * **Linear Probe F1 score:** 0.9871
+#### **Linear Probe Accuracy:** 98.76%
+#### **Linear Probe F1 score:** 0.9871
 
 <p float="left">
   <img src="images/SimCLR_loss.png" width=500/>
@@ -34,8 +34,8 @@ The 2 options to run the code:
 
 
 ### MAE:
-#### * **Linear Probe Accuracy:** 85.44%
-#### * **Linear Probe F1 score:** 0.8567
+#### **Linear Probe Accuracy:** 85.44%
+#### **Linear Probe F1 score:** 0.8567
 
 <p float="left">
   <img src="images/mae_linear_probe_loss.png" width=500/>
